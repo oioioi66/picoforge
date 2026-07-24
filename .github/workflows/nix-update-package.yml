@@ -1,7 +1,7 @@
 name: "Update Nix Package"
 on:
-  schedule:
-    - cron:  '0 0 * * 0' # https://crontab.guru/#0_0_*_*_0
+  #schedule:
+    #- cron:  '0 0 * * 0' # https://crontab.guru/#0_0_*_*_0
   workflow_dispatch:
 permissions:
   contents: write
